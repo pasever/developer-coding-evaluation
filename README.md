@@ -6,7 +6,7 @@ Say hello to the Cardinal Solutions coding evaluation. You'll be taking a single
 - Task runners like Gulp or Webpack can be used
 - A pre-processor like Sass can also be used.
 - UI frameworks like Bootstrap, Foundation, Material, may not be used.
-- The UI may be build in static HTML or you may use React, Angular, Vue or the like.
+- The UI may be built in static HTML or you may use React, Angular, Vue or the like.
 
 Once complete, your site should be deployed to Github Pages.
 
