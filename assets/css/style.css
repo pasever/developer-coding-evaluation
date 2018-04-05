@@ -1,0 +1,12 @@
+body {
+  background: silver;
+}
+
+header {
+    background-image: url("../images/pic-hero.png");
+    /* height: 40px; */
+  }
+
+header img {
+    height: 160%;
+}
