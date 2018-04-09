@@ -131,6 +131,7 @@ h4 {
 
 header {
     background-size: cover; 
+    background-image: url(images/pic-hero.png);
    img {
       padding-top: 3rem;
     }
@@ -141,8 +142,7 @@ header {
       margin-top: 6rem; 
       margin-bottom: 9rem;
       line-height: 74px;
-      letter-spacing: 1px;
-      
+      letter-spacing: 1px;   
     }
 }
   
@@ -196,8 +196,6 @@ header {
   }
   .column-double {
     color: white;
-    // margin-left: auto;
-    // margin-right: auto; 
     /*width: 50%;
     padding: 1%;
     float: left;
@@ -265,6 +263,7 @@ header {
 }
 
 #gojo {
+  background-image: url(images/pic-gojo-bg.png);
   background-position: left 12rem;
   background-size: contain;
   .row {
@@ -296,6 +295,7 @@ header {
 }
 
 #bank {
+  background-image: url(images/pic-fifththird-bg.png);
   background-position: auto;
   background-repeat: no-repeat;
   background-size: cover;

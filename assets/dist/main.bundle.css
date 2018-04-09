@@ -466,6 +466,7 @@ h4 {
 
 header {
   background-size: cover;
+  background-image: url(images/pic-hero.png);
 }
 
 header img {
@@ -608,6 +609,7 @@ header h2 {
 }
 
 #gojo {
+  background-image: url(images/pic-gojo-bg.png);
   background-position: left 12rem;
   background-size: contain;
 }
@@ -645,6 +647,7 @@ header h2 {
 }
 
 #bank {
+  background-image: url(images/pic-fifththird-bg.png);
   background-position: auto;
   background-repeat: no-repeat;
   background-size: cover;
