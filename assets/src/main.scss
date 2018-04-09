@@ -1,4 +1,8 @@
+// ================== Imports  ========================= 
+
 @import "vendors/normalize.css";
+
+// ================== Fonts  ========================= 
 
 @font-face {
   font-family: 'EffaLite';
@@ -16,6 +20,8 @@
   font-family: 'EffaBold';
   src: url('fonts/Effra_Std_Bd.ttf')  format('truetype');
 }
+
+// ================== Variables  ========================= 
 
 $header-color: #1C243C;
 $text-color-gray: #656565;
@@ -47,7 +53,6 @@ html, body {
     padding: 0;
     line-height: 1.5;
   }
-
  
 body {
   display: flex;
@@ -107,13 +112,14 @@ h3 {
   font-size: 1.8rem;
   font-family: $effa-regular;
 }
+
 h4 {
   font-size: 1.2rem;
   font-family: $effa-bold;
 }
 
 .container {
-  max-width: 64em;
+  max-width: 76em;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0rem;
@@ -129,6 +135,8 @@ h4 {
   clear: both;
 }
 
+// ================== Header  ========================= 
+
 header {
     background-size: cover; 
     background-image: url(images/pic-hero.png);
@@ -139,23 +147,27 @@ header {
       font-size: 64px;
       color: white;
       text-align: center;
-      margin-top: 6rem; 
-      margin-bottom: 9rem;
+      margin-top: 9rem; 
+      margin-bottom: 13rem;
       line-height: 74px;
       letter-spacing: 1px;   
     }
 }
   
-  #clients {
+// ================== Clients  ========================= 
+ 
+#clients {
     background-color:rgb(240, 240, 240);
     .container {
       padding-top: 3rem;
       padding-bottom: 1rem;
+      //max-width: 66em;
     }
     .row {
       margin-left: auto;
       margin-right: auto;
-      padding: 0 0 5rem;
+      padding: 0 0 7rem;
+      width: 68em;
     }
     .col4 {
       max-width: 80%;
@@ -164,6 +176,7 @@ header {
       h3 {
         font-weight: bold;
         font-size: 26px;
+        padding-top: 0;
       }
       p {
         line-height: 1.5;
@@ -172,17 +185,18 @@ header {
     .col4-image {
       width: 15%;
       float: left;
-      padding: 1rem 0 0 0;
+      padding: 1.3rem 0 0 0;
     }  
     .col4-text {
-      padding: 0 0 0 2%;
       margin: -2% 0 0 0;
       width: 78%;
       float: left;
     }
   }
-  
-#partners {
+
+// ================== Partners  ========================= 
+
+  #partners {
   .container {
     margin-top: -5rem;
     padding-bottom: 5rem;
@@ -196,12 +210,8 @@ header {
   }
   .column-double {
     color: white;
-    /*width: 50%;
-    padding: 1%;
-    float: left;
-    height: 200px;*/
     flex: 0 0 50%;
-    height: 16em;
+    height: 18em;
     padding: 1em 0 0 1em;
   }
   .content-double {
@@ -218,15 +228,8 @@ header {
     }
   }
   .column {
-    /*display: flex;
-    justify-content: center;*/
-    //width: 85%;
-    /*float: left;
-    width: 25%;
-    padding: 0 5% 8% 0;
-    display: flex;*/
     flex: 0 0 25%;
-    height: 16em;
+    height: 18em;
     padding: 1em 0 0 1em;
   }
   .content {
@@ -235,7 +238,6 @@ header {
     display: flex;
     height: 100%;
     justify-content: center;
-    /*line-height: 200px;*/
     img {
       align-self: center;
     }
@@ -261,6 +263,8 @@ header {
     }
   }
 }
+
+// ================== Gojo  ========================= 
 
 #gojo {
   background-image: url(images/pic-gojo-bg.png);
@@ -294,6 +298,8 @@ header {
   }  
 }
 
+// ================== Bank  ========================= 
+
 #bank {
   background-image: url(images/pic-fifththird-bg.png);
   background-position: auto;
@@ -303,6 +309,7 @@ header {
   overflow: hidden;
   .container {
     position: relative;
+    padding-bottom: 2rem; 
   }
   .bank-content-inner {
     padding: 12rem 70% 12rem 0;
@@ -342,24 +349,24 @@ header {
 
 #hospital {
   background-image: url(images/pic-chhn-bg.png);
+  .row {
+    display: flex;
+  }
 
 }
 
-/* =========================================== *\
-  Contact form
-\* =========================================== */
-
+// ================== Contact  ========================= 
+               
 #connect {
   background-color: #eee;
   padding: 4rem 0;
 
-  /* container */
   .container {
       display: flex;
       flex-wrap: wrap;
+      //position: relative;
   }
 
-  /* divider */
   .divider {
       border-right: 1px solid #D8DADB;
       margin-left: auto;
@@ -367,7 +374,6 @@ header {
       padding-left: 2.5em;
   }
 
-  /* phone number */
   .phone {
       color: $header-color;
       font-family: $effa-bold;
@@ -380,14 +386,12 @@ header {
       overflow: hidden;
   }
 
-  /* contact form */
   .contact-form-wrapper {
       -webkit-box-flex: 1;
       -ms-flex: 1;
       flex: 1;
   }
 
-  /* form header */
   .form-header {
       margin-bottom: 2rem;
       text-align: center;
@@ -409,7 +413,6 @@ header {
       }
   }
 
-  /* contat form row */
   .contact-form-row {
       margin-bottom: 1rem;
 
@@ -427,12 +430,10 @@ header {
       }
   }
 
-  /* submit button */
   .contact-form-row-submit {
       padding-top: .25rem;
   }
 
-  /* address and map section */
   .contact-information {
       padding-left: 2.5em;
       width: 40%;
@@ -459,7 +460,6 @@ header {
   }
 }
 
-/* small screens */
 @media (max-width: 48em) {
   #connect {
       /* divider */

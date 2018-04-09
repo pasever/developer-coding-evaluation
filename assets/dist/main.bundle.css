@@ -447,7 +447,7 @@ h4 {
 }
 
 .container {
-  max-width: 64em;
+  max-width: 76em;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0rem;
@@ -477,8 +477,8 @@ header h2 {
   font-size: 64px;
   color: white;
   text-align: center;
-  margin-top: 6rem;
-  margin-bottom: 9rem;
+  margin-top: 9rem;
+  margin-bottom: 13rem;
   line-height: 74px;
   letter-spacing: 1px;
 }
@@ -495,7 +495,8 @@ header h2 {
 #clients .row {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 0 5rem;
+  padding: 0 0 7rem;
+  width: 68em;
 }
 
 #clients .col4 {
@@ -507,6 +508,7 @@ header h2 {
 #clients .col4 h3 {
   font-weight: bold;
   font-size: 26px;
+  padding-top: 0;
 }
 
 #clients .col4 p {
@@ -516,11 +518,10 @@ header h2 {
 #clients .col4-image {
   width: 15%;
   float: left;
-  padding: 1rem 0 0 0;
+  padding: 1.3rem 0 0 0;
 }
 
 #clients .col4-text {
-  padding: 0 0 0 2%;
   margin: -2% 0 0 0;
   width: 78%;
   float: left;
@@ -541,12 +542,8 @@ header h2 {
 
 #partners .column-double {
   color: white;
-  /*width: 50%;
-    padding: 1%;
-    float: left;
-    height: 200px;*/
   flex: 0 0 50%;
-  height: 16em;
+  height: 18em;
   padding: 1em 0 0 1em;
 }
 
@@ -567,14 +564,8 @@ header h2 {
 }
 
 #partners .column {
-  /*display: flex;
-    justify-content: center;*/
-  /*float: left;
-    width: 25%;
-    padding: 0 5% 8% 0;
-    display: flex;*/
   flex: 0 0 25%;
-  height: 16em;
+  height: 18em;
   padding: 1em 0 0 1em;
 }
 
@@ -584,7 +575,6 @@ header h2 {
   display: flex;
   height: 100%;
   justify-content: center;
-  /*line-height: 200px;*/
 }
 
 #partners .content img {
@@ -657,6 +647,7 @@ header h2 {
 
 #bank .container {
   position: relative;
+  padding-bottom: 2rem;
 }
 
 #bank .bank-content-inner {
@@ -703,21 +694,13 @@ header h2 {
   background-image: url(images/pic-chhn-bg.png);
 }
 
-/* =========================================== *\
-  Contact form
-\* =========================================== */
+#hospital .row {
+  display: flex;
+}
 
 #connect {
   background-color: #eee;
   padding: 4rem 0;
-  /* container */
-  /* divider */
-  /* phone number */
-  /* contact form */
-  /* form header */
-  /* contat form row */
-  /* submit button */
-  /* address and map section */
 }
 
 #connect .container {
@@ -816,8 +799,6 @@ header h2 {
 #connect .contact-information .block {
   margin-bottom: 2rem;
 }
-
-/* small screens */
 
 @media (max-width: 48em) {
   #connect {
