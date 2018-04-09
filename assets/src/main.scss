@@ -349,10 +349,32 @@ header {
 
 #hospital {
   background-image: url(images/pic-chhn-bg.png);
+  overflow: hidden;
   .row {
     display: flex;
+    img {
+      margin: -2.15rem 0 -0.2rem -5.1rem;
+    }
   }
-
+  .hospital-content-inner {
+    padding: 7rem 0 0 4rem;
+    color: white;
+  }
+  h3 {
+    line-height: 1;
+    font-family: $effa-bold;
+    margin-bottom: 0;
+  }
+  h5 {
+    text-transform: uppercase;
+    margin-top: 0.55rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+  .button {
+    margin-top: 3rem;
+  }
 }
 
 // ================== Contact  ========================= 
@@ -395,18 +417,15 @@ header {
   .form-header {
       margin-bottom: 2rem;
       text-align: center;
-
       h3,
       p {
           line-height: 1;
           margin-top: 0;
           margin-bottom: 0;
       }
-
       h3 {
           color: $header-color;
       }
-
       p {
           color: $text-color-gray;
           padding-top: 1rem;
