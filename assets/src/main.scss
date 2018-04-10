@@ -317,6 +317,10 @@ header {
     .column-double {
       margin-top: -2.5rem;
     }
+    .content {
+      margin: auto;
+      width: 25rem;
+    }
   }
 }
 
@@ -441,6 +445,25 @@ header {
   }
 }
 
+@media (max-width: 24em) {
+  #hospital {
+    .row {
+      display: initial; 
+      width: 22rem;  
+      img {
+        width: 22rem;
+        margin: 3rem 3rem 1.5rem 3rem;
+      }  
+      .hospital-content-inner {
+        padding: 0 2.5rem;
+        a {
+          margin-bottom: 3rem;
+        }
+      } 
+    }
+  }
+}
+
 // ================== Contact  ========================= 
                
 #connect {
@@ -530,6 +553,9 @@ header {
 
 @media (max-width: 48em) {
   #connect {
+    .container {
+      width: 24rem;
+    }
     .divider {
         border-right: 0;
         border-bottom: 1px solid #D8DADB;
@@ -550,6 +576,16 @@ header {
         .block {
             text-align: center;
       }
+    }
+  }
+}
+
+@media (max-width: 24em) {
+  #connect {  
+    p {
+    width: 16rem;
+    margin: auto;
+    line-height: 1.5 !important; 
     }
   }
 }
@@ -575,5 +611,23 @@ header {
       font-family: $effa-regular;
       padding-top: 0;
     }      
+  }
+}
+
+@media (max-width: 24em) {
+  .footer {  
+    text-align: center;
+    &-company {
+      margin: auto;
+      width: 20rem;
+      float: none;
+      p {
+        margin-top: 2.6rem;
+      }
+    }
+    &-content {
+      float: none;
+      margin: auto;
+    }
   }
 }

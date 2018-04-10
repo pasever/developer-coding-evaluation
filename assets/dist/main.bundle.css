@@ -656,6 +656,11 @@ header h2 {
   #partners .column-double {
     margin-top: -2.5rem;
   }
+
+  #partners .content {
+    margin: auto;
+    width: 25rem;
+  }
 }
 
 #gojo {
@@ -793,6 +798,26 @@ header h2 {
   margin-top: 3rem;
 }
 
+@media (max-width: 24em) {
+  #hospital .row {
+    display: initial;
+    width: 22rem;
+  }
+
+  #hospital .row img {
+    width: 22rem;
+    margin: 3rem 3rem 1.5rem 3rem;
+  }
+
+  #hospital .row .hospital-content-inner {
+    padding: 0 2.5rem;
+  }
+
+  #hospital .row .hospital-content-inner a {
+    margin-bottom: 3rem;
+  }
+}
+
 #connect {
   background-color: #eee;
   padding: 4rem 0;
@@ -896,6 +921,10 @@ header h2 {
 }
 
 @media (max-width: 48em) {
+  #connect .container {
+    width: 24rem;
+  }
+
   #connect .divider {
     border-right: 0;
     border-bottom: 1px solid #D8DADB;
@@ -920,6 +949,14 @@ header h2 {
 
   #connect .contact-information .block {
     text-align: center;
+  }
+}
+
+@media (max-width: 24em) {
+  #connect p {
+    width: 16rem;
+    margin: auto;
+    line-height: 1.5 !important;
   }
 }
 
@@ -950,4 +987,25 @@ header h2 {
 .footer-company p {
   font-family: "EffaRegular", Helvetica, sans-serif;
   padding-top: 0;
+}
+
+@media (max-width: 24em) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-company {
+    margin: auto;
+    width: 20rem;
+    float: none;
+  }
+
+  .footer-company p {
+    margin-top: 2.6rem;
+  }
+
+  .footer-content {
+    float: none;
+    margin: auto;
+  }
 }
