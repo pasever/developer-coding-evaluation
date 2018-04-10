@@ -222,8 +222,9 @@ header {
     #clients {
       .col4 {
         float: none;
-        padding-left: 3.7rem;   
+        padding-left: 2.7rem;   
         text-align: center;
+        box-sizing: initial;
         &-image {
           float: none;
           margin: 0 auto;
@@ -268,11 +269,15 @@ header {
     height: 100%;
     text-align: left;
     box-shadow: 0 0 65px 0px rgba(0,0,0,0.2);
+    margin: -0.5rem 1rem 0 1rem; 
   }
   .our-clients-content-wrapper {
     padding: 3.5rem;
+    text-align: center;
+    margin: 0 -1.1rem 1rem -1.1rem;
     h3 {
       margin-top: 0;
+      margin-bottom: 0;
     }
   }
   .column {
@@ -347,6 +352,28 @@ header {
       padding-bottom: 1.5rem;
     }
   }  
+}
+
+@media (max-width: 24em) {
+  #gojo {
+    .row {
+      display: block;
+      
+    }
+    .gojo-content {
+      padding-left: 3rem;
+      padding-bottom: 3rem;
+      h5 {
+        margin-top: 0;
+      }
+      h3 {
+        margin-bottom: 0.1rem;
+      }
+      a {
+        margin: 2rem 0 0 0;
+      }
+    }
+  }
 }
 
 // ================== Bank  ========================= 
