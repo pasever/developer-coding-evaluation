@@ -540,6 +540,18 @@ header h2 {
   float: left;
 }
 
+#clients-image {
+  width: 15%;
+  float: left;
+  padding: 1.3rem 0 0 0;
+}
+
+#clients-text {
+  margin: -2% 0 0 0;
+  width: 78%;
+  float: left;
+}
+
 @media (max-width: 24em) {
   #clients .col4 {
     float: none;
@@ -635,6 +647,10 @@ header h2 {
   #partners .column {
     flex: 0 0 100%;
   }
+
+  #partners .column-double {
+    margin-top: -2.5rem;
+  }
 }
 
 #gojo {
@@ -648,28 +664,28 @@ header h2 {
   padding: 3rem 0 0 0;
 }
 
-#gojo .gojo-content {
+#gojo-content {
   padding-left: 0.3rem;
 }
 
-#gojo .gojo-content-inner {
+#gojo-content-inner {
   padding: 3rem;
 }
 
-#gojo .gojo-content-inner h3 {
+#gojo-content-inner h3 {
   font-weight: bold;
   font-family: "EffaBold", Helvetica, sans-serif;
   font-size: 1.6rem;
   margin-bottom: 0;
 }
 
-#gojo .gojo-content-inner h5 {
+#gojo-content-inner h5 {
   text-transform: uppercase;
   margin-top: 0.25rem;
   font-family: "EffaBold", Helvetica, sans-serif;
 }
 
-#gojo .gojo-content-inner p {
+#gojo-content-inner p {
   font-size: 1.4rem;
   line-height: 1.5;
   padding-bottom: 1.5rem;
@@ -893,9 +909,13 @@ header h2 {
   background-color: #d8d8d8;
 }
 
+.footer .container {
+  margin-top: 2rem;
+}
+
 .footer .container a {
   float: right;
-  margin: 0.4rem 1.4rem 2rem 1.4rem;
+  margin: 1.1rem 1.4rem 2rem 1.4rem;
 }
 
 .footer-content {
@@ -905,8 +925,10 @@ header h2 {
 
 .footer-company {
   width: 50%;
+  float: left;
 }
 
 .footer-company p {
   font-family: "EffaRegular", Helvetica, sans-serif;
+  padding-top: 0;
 }

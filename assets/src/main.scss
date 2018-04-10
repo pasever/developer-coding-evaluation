@@ -195,13 +195,23 @@ header {
       p {
         line-height: 1.5;
       }
+      &-image {
+        width: 15%;
+        float: left;
+        padding: 1.3rem 0 0 0;
+      }  
+      &-text {
+        margin: -2% 0 0 0;
+        width: 78%;
+        float: left;
+      }
     }
-    .col4-image {
+    &-image {
       width: 15%;
       float: left;
       padding: 1.3rem 0 0 0;
     }  
-    .col4-text {
+    &-text {
       margin: -2% 0 0 0;
       width: 78%;
       float: left;
@@ -299,6 +309,9 @@ header {
     .column {
       flex: 0 0 100%;
     }
+    .column-double {
+      margin-top: -2.5rem;
+    }
   }
 }
 
@@ -312,10 +325,10 @@ header {
     display: flex;
     padding: 3rem 0 0 0;
   }
-  .gojo-content {
+  &-content {
     padding-left: 0.3rem;
   }
-  .gojo-content-inner {
+  &-content-inner {
     padding: 3rem;
     h3 {
       font-weight: bold;
@@ -524,9 +537,10 @@ header {
   flex-shrink: 0;
   background-color: rgb(216, 216, 216);
  .container {
+   margin-top: 2rem;
    a {
      float: right;
-     margin: 0.4rem 1.4rem 2rem 1.4rem;
+     margin: 1.1rem 1.4rem 2rem 1.4rem;
    }
  }
   &-content {
@@ -535,8 +549,10 @@ header {
   }
   &-company {
     width: 50%;
+    float: left;
     p {
       font-family: $effa-regular;
+      padding-top: 0;
     }      
   }
 }
