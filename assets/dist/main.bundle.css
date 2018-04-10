@@ -483,6 +483,19 @@ header h2 {
   letter-spacing: 1px;
 }
 
+@media (max-width: 24em) {
+  header img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  header h2 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    margin: 3.5rem 0.6rem 4.8rem 0;
+  }
+}
+
 #clients {
   background-color: #f0f0f0;
 }
@@ -525,6 +538,32 @@ header h2 {
   margin: -2% 0 0 0;
   width: 78%;
   float: left;
+}
+
+@media (max-width: 24em) {
+  #clients .col4 {
+    float: none;
+    padding-left: 3.7rem;
+    text-align: center;
+  }
+
+  #clients .col4-image {
+    float: none;
+    margin: 0 auto;
+  }
+
+  #clients .col4-text {
+    width: auto;
+  }
+
+  #clients .col4-text h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #clients .col4-text p {
+    margin-bottom: 1.4rem;
+  }
 }
 
 #partners .container {
@@ -852,7 +891,6 @@ header h2 {
 .footer {
   flex-shrink: 0;
   background-color: #d8d8d8;
-  line-height: 1;
 }
 
 .footer .container a {
@@ -867,4 +905,8 @@ header h2 {
 
 .footer-company {
   width: 50%;
+}
+
+.footer-company p {
+  font-family: "EffaRegular", Helvetica, sans-serif;
 }

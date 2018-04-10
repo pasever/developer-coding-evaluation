@@ -155,6 +155,19 @@ header {
       letter-spacing: 1px;   
     }
 }
+@media (max-width: 24em) {
+  header {
+    img {
+      display:block;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2.2rem;
+      line-height: 1.5;
+      margin: 3.5rem 0.6rem 4.8rem 0;  
+    }
+  }
+}
   
 // ================== Clients  ========================= 
  
@@ -192,6 +205,30 @@ header {
       margin: -2% 0 0 0;
       width: 78%;
       float: left;
+    }
+  }
+
+  @media (max-width: 24em) {
+    #clients {
+      .col4 {
+        float: none;
+        padding-left: 3.7rem;   
+        text-align: center;
+        &-image {
+          float: none;
+          margin: 0 auto;
+        }
+        &-text {
+          width: auto;
+          h3{
+           margin-top: 1rem;
+           margin-bottom: 1rem;
+          }
+          p {
+           margin-bottom: 1.4rem;
+          }
+        }
+      }
     }
   }
 
@@ -486,28 +523,20 @@ header {
 .footer {
   flex-shrink: 0;
   background-color: rgb(216, 216, 216);
-  //display: inline-block;
-  //text-align: left;
-  //align-items: center;
-  line-height: 1;
  .container {
    a {
      float: right;
      margin: 0.4rem 1.4rem 2rem 1.4rem;
    }
- // display: flex;
-  //flex-direction: row;
  }
   &-content {
     float: right;
     width: 50%;
-   // padding: 0 2rem 2rem 2rem;
-  //  p {
-  //   vertical-align: middle;
-  //  }
   }
   &-company {
     width: 50%;
-    
+    p {
+      font-family: $effa-regular;
+    }      
   }
 }
