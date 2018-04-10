@@ -378,12 +378,14 @@ body {
   line-height: 1.5;
 }
 
+.main {
+  flex: 1 0 auto;
+}
+
 body {
   display: flex;
   flex-direction: column;
 }
-
-/* buttons */
 
 button,
 .button,
@@ -413,8 +415,6 @@ button:hover {
   color: #293148;
   font-family: "EffaBold", Helvetica, sans-serif;
 }
-
-/* links */
 
 a {
   color: #1887D1;
@@ -682,14 +682,6 @@ header h2 {
   top: 3rem;
 }
 
-.main {
-  flex: 1 0 auto;
-}
-
-.footer {
-  flex-shrink: 0;
-}
-
 #hospital {
   background-image: url(images/pic-chhn-bg.png);
   overflow: hidden;
@@ -700,7 +692,7 @@ header h2 {
 }
 
 #hospital .row img {
-  margin: -2.15rem 0 -0.2rem -5.1rem;
+  margin: -2.15rem 0 -2.5rem -5.1rem;
 }
 
 #hospital .hospital-content-inner {
@@ -794,7 +786,7 @@ header h2 {
   color: #9F9F9F;
   display: block;
   font-size: 1rem;
-  line-height: 1.25;
+  line-height: 1.5;
   padding: .75rem .75rem;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
   width: 100%;
@@ -830,11 +822,6 @@ header h2 {
 }
 
 @media (max-width: 48em) {
-  #connect {
-    /* divider */
-    /* contact form */
-  }
-
   #connect .divider {
     border-right: 0;
     border-bottom: 1px solid #D8DADB;
@@ -860,4 +847,24 @@ header h2 {
   #connect .contact-information .block {
     text-align: center;
   }
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: #d8d8d8;
+  line-height: 1;
+}
+
+.footer .container a {
+  float: right;
+  margin: 0.4rem 1.4rem 2rem 1.4rem;
+}
+
+.footer-content {
+  float: right;
+  width: 50%;
+}
+
+.footer-company {
+  width: 50%;
 }
