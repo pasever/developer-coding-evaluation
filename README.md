@@ -1,3 +1,6 @@
+GitHub Pages: https://pasever.github.io/developer-coding-evaluation/assets/
+
+
 # Developer Coding Evaluation
 
 ## Instructions
